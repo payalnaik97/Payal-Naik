@@ -1,0 +1,25 @@
+{
+  "name": "newpetclinic",
+  "version": "1.0.0",
+  "description": "Practice",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "protractor JSFile/config.js"
+   },
+  "author": "Payal",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "cucumber": "^7.0.0-rc.0",
+    "log4js": "^6.3.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^7.0.1",
+    "cucumber-html-reporter": "^5.3.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "1.8.1"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^7.0.0",
+    "@types/jquery": "^3.5.5"
+  }
+}
