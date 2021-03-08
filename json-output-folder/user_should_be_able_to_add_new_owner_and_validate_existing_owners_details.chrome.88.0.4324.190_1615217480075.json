@@ -105,6 +105,17 @@
     "keyword": "Feature",
     "name": "User should be able to add new owner and validate existing owners details",
     "tags": [],
-    "uri": "Feature\\addOwner.feature"
+    "uri": "Feature\\addOwner.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "88.0.4324.190"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
   }
 ]

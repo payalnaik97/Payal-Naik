@@ -9,7 +9,7 @@ setDefaultTimeout(90 * 1000);
 let ec = ExpectedConditions;
 let home=new owner()
 
-Given('User is on petclininc home page', { timeout: 100000 }, async function () {
+Given('User is on petclininc home page and home page title should be Welcome to PetClinic', { timeout: 100000 }, async function () {
     await browser.get("http://petclinicui.e46708b92c054086909b.eastus.aksapp.io/petclinic/welcome")
     browser.sleep(2000)
     await home.goToHome()
@@ -20,12 +20,12 @@ Given('User is on petclininc home page', { timeout: 100000 }, async function () 
    await home.clickonAddOwner()
    browser.sleep(2000)
  });
- When('User enter valid owners details as {string} {string} {string} {string} {string}', async function (fn, ln, addr, city, tel) {
+ When('User enter valid owners details as {string} {string} {string} {string} {string} and AddOwner button should get enable', async function (fn, ln, addr, city, tel) {
    await home.addNewOwnerInfo(fn,ln,addr,city,tel)
    browser.sleep(2000)
 });
 
-Then('User should be navigate on Owners page and added owner should be saved', async function () {
+Then('After Clicking on AddOwner button user should be navigated to Owners page and added owner should be saved', async function () {
  
   await home.verifyOwnerPageTitle()
   await browser.refresh()
