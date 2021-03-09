@@ -86,6 +86,7 @@ export class owner{
         const status1=await this.addButton1.isEnabled();
         expect(status1).to.equal(true);
         await log4jsConfig.Log().debug("Add Button Enable")
+        browser.sleep(3000)
         await this.addButton.click()
         var b= await this.addButton.getAttribute('innerText')
         console.log("Save New Owner  ::" +b)
@@ -115,8 +116,8 @@ export class owner{
        await browser.wait(ec.elementToBeClickable(ownDetails), 70000, 'Element taking too long to appear in the DOM');
        console.log(ownerName);
        log4jsConfig.Log().debug("Owner Details ::" +ownerName)
-       await expect('ABC').to.equal(FN);
-       await expect('XYZ').to.equal(LN);
+       await expect('PQR').to.equal(FN);
+       await expect('STD').to.equal(LN);
        log4jsConfig.Log().debug("Verify added owner Firstname and Lastname::" +FN + "  " +LN)
         
     }

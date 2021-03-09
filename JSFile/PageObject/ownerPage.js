@@ -265,10 +265,10 @@ var owner = (function () {
                         _a.sent();
                         console.log(ownerName);
                         log4jsConfig_1.log4jsConfig.Log().debug("Owner Details ::" + ownerName);
-                        return [4, expect('ABC').to.equal(FN)];
+                        return [4, expect('PQR').to.equal(FN)];
                     case 5:
                         _a.sent();
-                        return [4, expect('XYZ').to.equal(LN)];
+                        return [4, expect('STD').to.equal(LN)];
                     case 6:
                         _a.sent();
                         log4jsConfig_1.log4jsConfig.Log().debug("Verify added owner Firstname and Lastname::" + FN + "  " + LN);

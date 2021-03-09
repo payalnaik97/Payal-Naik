@@ -10,4 +10,4 @@ Feature: User should be able to add new owner and validate existing owners detai
 
         Examples:
             | First_Name | Last_Name | Address            | City   | Telephone  |
-            | ABC    | XYZ     | 5020 Intellj Street | NYC | 4569852369 |
+            | PQR    | STD     | 5020 Intellj Street | NYC | 4569852369 |
