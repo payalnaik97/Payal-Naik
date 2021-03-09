@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 9000000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11422000000
+              "duration": 35589000000
             }
           },
           {
@@ -40,20 +40,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 183000000
+              "duration": 222000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "User enter valid owners details as \"ABC\" \"XYZ\" \"5020 Intellj Street\" \"NYC\" \"4569852369\" and AddOwner button should get enable",
+            "name": "User enter valid owners details as \"PQR\" \"STD\" \"5020 Intellj Street\" \"NYC\" \"4569852369\" and AddOwner button should get enable",
             "match": {
               "location": "StepDefinition\\addOwnerStep.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 7539000000
+              "duration": 7780000000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6664000000
+              "duration": 6825000000
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7918000000
+              "duration": 6336000000
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 56000000
             }
           }
         ],

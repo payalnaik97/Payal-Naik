@@ -1,0 +1,218 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-should-able-to-add-pet-type-.;add-pet-type",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add Pet Type",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on PetType page",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6629000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User click on Add button on PetType page",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be able to add new PetType as \"Mammals\" on PetType page and see added PetType",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5796000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click on Delete button on PetType page",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should able to see selected PetType get deleted",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4659000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click on Home button on PetType Page",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should navigate to Home Page",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2040000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-should-able-to-add-pet-type-.;edit-first-pet-type",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Edit First Pet Type",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "User is on PetType page",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User click on Edit button of first PetType",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User should navigate to Edit PetType page and able to edit selected PetType and enter new Name as \"MammalsNew\" on PetType page",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User should click on Update button",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User should able to see PetType name upadted to new",
+            "match": {
+              "location": "StepDefinition\\stepPetTypeAddDelete.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9517000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-should-able-to-add-pet-type-.",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User should able to add Pet Type .",
+    "tags": [],
+    "uri": "Feature\\petTypeAddDelete.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "88.0.4324.190"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

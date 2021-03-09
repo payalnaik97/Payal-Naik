@@ -8,14 +8,18 @@ export let config: Config = {
   
         
    capabilities: {
-     browserName: 'firefox'
+    browserName: 'chrome', 
+   /*  browserName: 'firefox',       
+      'moz:firefoxOptions': {
+     args: [ "--headless" ]
+   } */
    },
 
      
     specs: [
-       '../Feature/addOwner.feature',
-       '../Feature/addVeterinarian.feature',
-       '../Feature/petTypeAddDelete.feature',
+      '../Feature/addOwner.feature',
+     // '../Feature/addVeterinarian.feature',
+      //'../Feature/petTypeAddDelete.feature',
     ],
     
   

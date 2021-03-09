@@ -1,0 +1,153 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-should-able-to-add-venterinans-detial.;add-new-venterinans",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add New Venterinans",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Venterinans page",
+            "match": {
+              "location": "StepDefinition\\stepaddVenterianrian.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User click on Venterinans tab and select add new from dropdown",
+            "match": {
+              "location": "StepDefinition\\stepaddVenterianrian.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter valid details",
+            "match": {
+              "location": "StepDefinition\\stepaddVenterianrian.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be navigate on Venterinans page and added Venterinans should be saved",
+            "match": {
+              "location": "StepDefinition\\stepaddVenterianrian.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8158000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-should-able-to-add-venterinans-detial.;back-button-on-venterinans",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Back Button on Venterinans",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User is on New Venterinans page",
+            "match": {
+              "location": "StepDefinition\\stepaddVenterianrian.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click on Back Button",
+            "match": {
+              "location": "StepDefinition\\stepaddVenterianrian.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be navigate on Venterinans page",
+            "match": {
+              "location": "StepDefinition\\stepaddVenterianrian.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3051000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-should-able-to-add-venterinans-detial.",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User should able to add Venterinans detial.",
+    "tags": [],
+    "uri": "Feature\\addVeterinarian.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "88.0.4324.190"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
