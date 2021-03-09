@@ -1,32 +1,25 @@
 import {Config,browser} from 'protractor';
 let reporter = require('cucumber-html-reporter');
 export let config: Config = {
-   // seleniumAddress: 'http://localhost:4444/wd/hub',
+    //seleniumAddress: 'http://localhost:4444/wd/hub',
     directConnect: true,    
     framework: 'custom',   
     frameworkPath: require.resolve('protractor-cucumber-framework'),
   
         
    capabilities: {
-<<<<<<< HEAD
     browserName: 'chrome', 
    /*  browserName: 'firefox',       
       'moz:firefoxOptions': {
      args: [ "--headless" ]
    } */
-=======
-     browserName: 'firefox',
-       'moz:firefoxOptions': {
-     args: [ "--headless" ]
-   }
->>>>>>> 8ed208e2c7ed200023b6052f3a8cfc4d899a1767
    },
 
      
     specs: [
       '../Feature/addOwner.feature',
-     // '../Feature/addVeterinarian.feature',
-      //'../Feature/petTypeAddDelete.feature',
+      '../Feature/addVeterinarian.feature',
+      '../Feature/petTypeAddDelete.feature',
     ],
     
   
