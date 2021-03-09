@@ -7,6 +7,7 @@ export let config: Config = {
     frameworkPath: require.resolve('protractor-cucumber-framework'),
   
         
+     
    capabilities: {
     browserName: 'chrome', 
    /*  browserName: 'firefox',       
