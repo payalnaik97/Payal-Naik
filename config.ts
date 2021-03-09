@@ -7,19 +7,13 @@ export let config: Config = {
     frameworkPath: require.resolve('protractor-cucumber-framework'),
   
         
+     
    capabilities: {
-<<<<<<< HEAD
     browserName: 'chrome', 
    /*  browserName: 'firefox',       
       'moz:firefoxOptions': {
      args: [ "--headless" ]
    } */
-=======
-     browserName: 'firefox',
-       'moz:firefoxOptions': {
-     args: [ "--headless" ]
-   }
->>>>>>> 8ed208e2c7ed200023b6052f3a8cfc4d899a1767
    },
 
      
