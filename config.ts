@@ -1,8 +1,8 @@
 import {Config,browser} from 'protractor';
 let reporter = require('cucumber-html-reporter');
 export let config: Config = {
-    //seleniumAddress: 'http://localhost:4444/wd/hub',
-    directConnect: true,    
+    seleniumAddress: 'http://localhost:4444/wd/hub',
+   // directConnect: true,    
     framework: 'custom',   
     frameworkPath: require.resolve('protractor-cucumber-framework'),
   
