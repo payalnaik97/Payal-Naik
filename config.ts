@@ -14,8 +14,8 @@ export let config: Config = {
      
     specs: [
        '../Feature/addOwner.feature',
-       //'../Feature/addVeterinarian.feature',
-       //'../Feature/petTypeAddDelete.feature',
+       '../Feature/addVeterinarian.feature',
+       '../Feature/petTypeAddDelete.feature',
     ],
     
   
