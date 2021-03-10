@@ -15,7 +15,7 @@ pipeline {
     	}
 	post { 
 		success { 
-		    echo "Your Test execution is done and reports at - /Pipeline_A740992/cucumber_repoer1.html"
+		    echo "Your Test execution is done and reports at - /Pipeline_A740992/cucumber_repoer.html"
 		}
 		failure { 
 		    echo "Please check logs for more details."
