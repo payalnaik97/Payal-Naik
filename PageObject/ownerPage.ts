@@ -86,7 +86,7 @@ export class owner{
         const status1=await this.addButton1.isEnabled();
         expect(status1).to.equal(true);
         await log4jsConfig.Log().debug("Add Button Enable")
-        browser.sleep(3000)
+        browser.sleep(5000)
         await this.addButton.click()
         var b= await this.addButton.getAttribute('innerText')
         console.log("Save New Owner  ::" +b)
