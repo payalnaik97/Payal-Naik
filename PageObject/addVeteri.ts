@@ -87,7 +87,7 @@ export class venterinans{
     public async newlyAddedVenDetails(){
         await browser.wait(ec.visibilityOf(this.venList), 20000, 'Taking too long to load');
         let venDetails = this.venList.all(by.tagName('tr')).last()
-        await browser.actions().mouseMove(venDetails).perform();
+        //await browser.actions().mouseMove(venDetails).perform();
         let venName = await venDetails.getText()
         const str=venName.split(' ')
         let FN=str[0]
