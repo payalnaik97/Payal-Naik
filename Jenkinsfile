@@ -15,7 +15,7 @@ pipeline {
     	}
 	post { 
 		success { 
-		    echo "Your Test execution is done and reports at - /protractorui/reports/2020-12-18.html"
+		    echo "Your Test execution is done and reports at - /Pipeline_A740992/cucumber_repoer1.html"
 		}
 		failure { 
 		    echo "Please check logs for more details."
