@@ -107,7 +107,7 @@ export class owner{
     public async newlyAddedOwnerDetails(){
         await browser.wait(ec.visibilityOf(this.ownerListTbl), 70000, 'Taking too long to load');
         let ownDetails = this.ownerListTbl.all(by.tagName('tr')).last()
-        await browser.actions().mouseMove(ownDetails).perform();
+        //await browser.actions().mouseMove(ownDetails).perform();
         browser.sleep(3000)
         let ownerName = await ownDetails.getText();
         const str=ownerName.split(" ");
