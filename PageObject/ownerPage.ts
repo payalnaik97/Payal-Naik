@@ -19,7 +19,8 @@ export class owner{
     private city=element(by.id('city'))
     private tel=element(by.id('telephone'))
     private addButton1=element(by.buttonText('Add Owner'))
-    private addButton=element(by.css("button[type='submit']"))
+    private addButton=element( by.buttonText( "Add Owner" ))
+    //private addButton=element(by.css("button[type='submit']"))
     private allOwnerDetails=element(by.css('.container xd-container h2'))
     private ownerListTbl = element(by.css('table.table-striped tbody'))
     private pageName = element(by.css('div .container.xd-container h2'))
@@ -70,6 +71,7 @@ export class owner{
         await this.fn.sendKeys(first)
         expect(first).to.have.lengthOf.above(2);
         await log4jsConfig.Log().debug("First is greater than 2 character ::" +first)
+        await console.log("First is greater than 2 character ::" +first);
         await this.ln.sendKeys(sec)
         expect(sec).to.have.lengthOf.above(2);
         await log4jsConfig.Log().debug("Last  is greater than 2 character ::" +sec)
