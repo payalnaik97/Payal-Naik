@@ -44,8 +44,8 @@ export let config: Config = {
     {
        var options = {
        theme: 'bootstrap',
-       jsonFile: './cucumberReports.json',
-       output: './cucumber_report.html',
+       jsonFile: './cucumberReports1.json',
+       output: './cucumber_report1.html',
        reportSuiteAsScenarios: true,
        scenarioTimestamp: true,
        launchReport: true,
